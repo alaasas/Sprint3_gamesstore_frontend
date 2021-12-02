@@ -1,10 +1,10 @@
 import PopupCart from '../Components/ShoppingCartUT';
 import TestRenderer from 'react-test-renderer';
 
-/*unit test for rendering (root App)*/
+/*unit test for rendering (shopping cart UI)*/
 
 // //render App compnent
-  test('render App component', ()=>{
+  test('render shopping cart component', ()=>{
     const testRenderer = TestRenderer.create(<PopupCart/>);
     const testInstance = testRenderer.root;
     expect(testInstance.findByProps({  test_id_1: "11"}).children).toEqual(['Double-Click to View shopping cart items ']);
