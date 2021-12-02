@@ -9,3 +9,7 @@ npm start
 
 For running the frontend in (disable web security mode), you may need to follow the link:
 https://www.youtube.com/watch?v=3yACsnV30N8
+
+To run the unit test use the following command: npm test
+
+The test files: App.test.js, LogOut.test.js 
